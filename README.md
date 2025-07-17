@@ -217,7 +217,7 @@ usegamng/
 ## 📞 Contact Information
 
 - **Email**: connection@usegamng.com
-- **Phone**: +1 (604) 555-0123
+- **Phone**: +1 (604) 555-9876
 - **Location**: 1234 West Georgia Street, Vancouver, BC V6E 4M8, Canada
 
 ## 📄 Legal Information

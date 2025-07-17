@@ -64,7 +64,7 @@ async function buildFooter() {
                         <div class="footer-section">
                             <h3>Contact Information</h3>
                             <p>Email: connection@usegamng.com</p>
-                            <p>Phone: +1 (604) 555-0123</p>
+                            <p>Phone: +1 (604) 555-9876</p>
                             <p>Location: 1234 West Georgia Street, Vancouver, BC V6E 4M8, Canada</p>
                         </div>
                         <div class="footer-section">
