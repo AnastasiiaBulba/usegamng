@@ -137,6 +137,7 @@
 
 .how-to-text h2 {
   margin-bottom: var(--spacing-lg);
+  text-align: center;
 }
 
 .instructions {
