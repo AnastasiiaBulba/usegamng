@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>usegamng.com – DIY Doll Factory</title>
+    <meta
+      name="description"
+      content="Welcome to DIY Doll Factory. Here you will create your dream doll factory. Begin a running journey to collect doll parts and assemble a unique and exclusive doll by hand! Dash across fun platforms to collect more dolls. Choose skins, glasses, headgear, etc., and finally pack them up to complete your doll collection!"
+    />
+    <meta name="keywords" content="Collecting, Fun, Running" />
+    <link rel="icon" type="image/x-icon" href="./image/favic.jpg" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>DIY Doll Factory</h1>
+          <p>
+            Create your dream doll factory and embark on an exciting running
+            adventure! Collect doll parts, customize your creations, and build
+            the most unique doll collection ever.
+          </p>
+          <button class="cta-button" onclick="scrollToGame()">Play Now</button>
+        </div>
+        <div class="hero-image">
+          <img src="./image/hiro3.jpg" alt="DIY Doll Factory Game" />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features">
+        <div class="container">
+          <h2>Game Features</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🏃</div>
+              <h3>Endless Running</h3>
+              <p>
+                Dash across colorful platforms and collect doll parts as you run
+                through exciting levels.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎨</div>
+              <h3>Customization</h3>
+              <p>
+                Choose from hundreds of skins, glasses, headgear, and
+                accessories to create unique dolls.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏭</div>
+              <h3>Factory Building</h3>
+              <p>
+                Build and upgrade your doll factory to produce more amazing
+                creations.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📦</div>
+              <h3>Collection System</h3>
+              <p>
+                Pack and organize your dolls to complete your exclusive
+                collection.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How to Play Section -->
+      <section class="how-to-play">
+        <div class="container">
+          <div class="how-to-content">
+            <div class="how-to-text">
+              <h2>How to Play</h2>
+              <div class="instructions">
+                <div class="instruction-item">
+                  <h3>🎮 Controls</h3>
+                  <p>
+                    Use arrow keys or WASD to move your character. Jump to reach
+                    higher platforms and avoid obstacles.
+                  </p>
+                </div>
+                <div class="instruction-item">
+                  <h3>🎯 Objectives</h3>
+                  <p>
+                    Collect doll parts scattered across the platforms. The more
+                    parts you collect, the more dolls you can create.
+                  </p>
+                </div>
+                <div class="instruction-item">
+                  <h3>🏆 Tips</h3>
+                  <p>
+                    Look for special golden parts that unlock rare doll
+                    accessories. Don't forget to upgrade your factory!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="how-to-image">
+              <img
+                src="./image/sect_one.jpg"
+                alt="How to play DIY Doll Factory"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Game Section -->
+      <section class="game-section">
+        <div class="container">
+          <h2>Play DIY Doll Factory</h2>
+          <div class="game-container">
+            <iframe
+              src="https://html5.gamemonetize.co/9jmutekimfw85gfmue42mfe52xvqbxh7/"
+              width="100%"
+              height="600"
+              scrolling="none"
+              frameborder="0"
+              allowfullscreen
+              sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drawing Tools Section -->
+      <section class="drawing-tools">
+        <div class="container">
+          <h2>Diverse Collection Paths</h2>
+          <div class="tools-content">
+            <div class="tools-text">
+              <p>
+                Explore various themed paths where you can collect different
+                types of doll parts. Each path offers unique challenges and
+                rewards:
+              </p>
+              <ul>
+                <li>
+                  <strong>Forest Path:</strong> Collect natural-themed
+                  accessories
+                </li>
+                <li><strong>City Streets:</strong> Find urban fashion items</li>
+                <li>
+                  <strong>Beach Route:</strong> Gather summer and beach
+                  accessories
+                </li>
+                <li>
+                  <strong>Mountain Trail:</strong> Discover adventure gear
+                </li>
+              </ul>
+            </div>
+            <div class="tools-image">
+              <img src="./image/sect_two.jpg" alt="Diverse collection paths" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews Section -->
+      <section class="reviews">
+        <div class="container">
+          <h2>Player Reviews</h2>
+          <div class="reviews-grid" id="reviews-container">
+            <!-- Reviews will be loaded from JSON -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-content">
+        <p>
+          We use cookies to enhance your gaming experience. By continuing to use
+          this site, you agree to our use of cookies.
+        </p>
+        <button id="accept-cookies" class="cookie-button">Accept</button>
+      </div>
+    </div>
+
+    <script src="./js/builder.js"></script>
+    <script src="./js/cookie-banner.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
